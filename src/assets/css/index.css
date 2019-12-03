@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: yellowgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 100px;
+}
+.btn-primary {
+    background-color: #6C1D5F !important;
+    border-color: #6C1D5F !important;
+}
+.App-avatar {
+    height: 50px;
+}
+
+.App-header {
+  background-image: linear-gradient(90deg, #6C1D5F 19%, #0d030b 81%);
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.userContainer {
+    float: left;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Login page CSS */
+.container {
+    padding: 16px;
+    max-width: 500px;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.cancelbtn {
+    background-color: gray;
+}
+
+.errorContainer {
+    color: red;
+}
+
+/* CSS for Planets */
+.circle {
+  position: relative;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/planet.jpg);
+  background-size: contain;
+  color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.planetName {
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infoContainer {
+    font-size: small;
+    width: 200px;
+    color: #ffff;
+    background: black;
+    opacity: 0.8;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.planetContainer {
+    margin: 20px;
+    display: inline-flex;
+}
+
+/* Logout CSS */
+.logoutContainer {
+    float: right;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.quote {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: monospace;
+    font-style: italic;
+    padding: 30px;
+    display: block;
+}
